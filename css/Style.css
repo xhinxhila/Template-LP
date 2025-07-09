@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    font-family:'roboto';
+}
+
+/*Gerais*/
+.button{
+    width: 100%;
+
+    padding: 10px;
+}
+
+/*Auliares*/
+
+.d-flex {
+    display: flex;
+}
+
+.r-row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.jc-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 80%;
+}
+
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid__fr3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid__fr5{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*Nav Bar*/
+#nav__button{
+    margin-left: 20px;
+    gap: 20px;
+}
+
+header {
+    height: 10vh;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+/*Hero*/
+
+#hero {
+    height: 90vh;
+}
+
+/*Section_Solution*/
+#solution{
+    height: auto;
+}
+
+/*Section titulo_breve1*/
+
+#titulo_breve1{
+    height: auto;
+}
+
+/*Section faq*/
+
+#faq{
+    height: auto;
+}
+
+.border__top{
+    border-top: 2px solid black;
+}
+
+/*Section qta*/
