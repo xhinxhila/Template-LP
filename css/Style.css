@@ -14,13 +14,19 @@ body{
 }
 
 /*Gerais*/
-.button{
+.nav__button{
     width: 100%;
 
     padding: 10px;
 }
 
+h1{
+    font-size: 56px;
+}
+
 /*Auliares*/
+
+.contenta
 
 .d-flex {
     display: flex;
@@ -31,8 +37,21 @@ body{
     flex-direction: row-reverse;
 }
 
+.f-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .border {
     border: 2px solid black;
+}
+
+.button{
+    width: 30%;
+    padding: 10px;
+
+    height: 100%;
+    
 }
 
 .jc-between {
@@ -68,6 +87,10 @@ body{
     gap: 20px;
 }
 
+#nav__button button{
+    width: 80%;
+}
+
 header {
     height: 10vh;
 }
@@ -83,6 +106,22 @@ ul {
 #hero {
     height: 90vh;
 }
+
+#hero .box p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#hero button{
+    margin-right: 50px;
+}
+
+#box__hero__text{
+    margin-right: 80px;
+}
+
+
+
 
 /*Section_Solution*/
 #solution{
